@@ -12,7 +12,7 @@ Interactive 2D orbital simulator in Python. Input custom initial altitudes (in E
 * **Physics-Engine Calculations:**
   * Computes the theoretical orbital period using Kepler's Third Law: $T = 2\pi\sqrt{\frac{r^3}{G \cdot M_{earth}}}$.
   * Integrates equations of motion step-by-step using high-precision astronomical constants from `astropy`.
-* **Smart Visualization:** Generates a beautifully scaled 2D plot showing Earth at the center, the starting point, the trajectory, and an automatic label identifying the type of orbit achieved.
+* **Smart Visualization:** Generates a scaled 2D plot showing Earth at the center, the starting point, the trajectory, and an automatic label identifying the type of orbit achieved.
 
 ## Tech Stack & Libraries
 
