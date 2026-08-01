@@ -21,7 +21,12 @@ Interactive 2D orbital simulator in Python. Input custom initial altitudes (in E
 * **Matplotlib** 
 * **Astropy** 
 
-## How It Works
+
+## Repository Structure
+* `physics.py` — Numerical integration loop and trajectory coordinates computation.
+* `main.py` — Execution script handling user input, energy calculations, and visualization.
+* `demo.ipynb` — Jupyter Notebook showcase with pre-rendered orbital plots.
+* `requirements.txt` — Project dependencies.
 
 1. **Input Parameters:** The script prompts the user for the starting distance in Earth Radii and the velocity multiplier $k_v$.
 2. **Error Checking:** The system validates that inputs are physically reasonable.
